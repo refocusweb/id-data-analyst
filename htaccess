@@ -1,0 +1,1822 @@
+ErrorDocument 403 /page27610637.html
+ErrorDocument 404 /page27610637.html
+
+DirectoryIndex page27912966.html
+
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^(.*)$ https://refocus\.me/$1 [R=301,L]
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =https
+RewriteCond %{HTTP_HOST} ^www\.refocus.me [NC]
+RewriteRule ^(.*)$ https://refocus\.me/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} /robots.txt
+RewriteCond "%{DOCUMENT_ROOT}/robots_%{HTTP_HOST}.txt" -f
+RewriteRule ^(.*)$ robots_%{HTTP_HOST}.txt [NC,L]
+RewriteRule ^ind/tiktok/data-analyst/thanks$ page31782660.html [NC]
+RewriteRule ^ind/tiktok/data-analyst/thanks/$ page31782660.html [NC]
+
+RewriteRule ^opportunities$ page27160327.html [NC]
+RewriteRule ^opportunities/$ page27160327.html [NC]
+
+RewriteRule ^ph/about$ page35678733.html [NC]
+RewriteRule ^ph/about/$ page35678733.html [NC]
+
+RewriteRule ^privacy$ page12650006.html [NC]
+RewriteRule ^privacy/$ page12650006.html [NC]
+
+RewriteRule ^quiz_t$ page27268904.html [NC]
+RewriteRule ^quiz_t/$ page27268904.html [NC]
+
+RewriteRule ^ph/refund$ page27867436.html [NC]
+RewriteRule ^ph/refund/$ page27867436.html [NC]
+
+RewriteRule ^ph/data-analyst$ page34317149.html [NC]
+RewriteRule ^ph/data-analyst/$ page34317149.html [NC]
+
+RewriteRule ^ph/wd/lesson/who_is_web_developer$ page33330814.html [NC]
+RewriteRule ^ph/wd/lesson/who_is_web_developer/$ page33330814.html [NC]
+
+RewriteRule ^career$ page34426277.html [NC]
+RewriteRule ^career/$ page34426277.html [NC]
+
+RewriteRule ^t/timer$ page28232640.html [NC]
+RewriteRule ^t/timer/$ page28232640.html [NC]
+
+RewriteRule ^t/offer$ page28042177.html [NC]
+RewriteRule ^t/offer/$ page28042177.html [NC]
+
+RewriteRule ^t/dates$ page27851459.html [NC]
+RewriteRule ^t/dates/$ page27851459.html [NC]
+
+RewriteRule ^payment/32000$ page28525007.html [NC]
+RewriteRule ^payment/32000/$ page28525007.html [NC]
+
+RewriteRule ^go$ page23973071.html [NC]
+RewriteRule ^go/$ page23973071.html [NC]
+
+RewriteRule ^webinar_excel/record$ page28126673.html [NC]
+RewriteRule ^webinar_excel/record/$ page28126673.html [NC]
+
+RewriteRule ^ph/da/webinar_millecenstory$ page29402074.html [NC]
+RewriteRule ^ph/da/webinar_millecenstory/$ page29402074.html [NC]
+
+RewriteRule ^referralprogram$ page27160331.html [NC]
+RewriteRule ^referralprogram/$ page27160331.html [NC]
+
+RewriteRule ^vacancies_template$ page35352672.html [NC]
+RewriteRule ^vacancies_template/$ page35352672.html [NC]
+
+RewriteRule ^webinar_analytics/record$ page28126572.html [NC]
+RewriteRule ^webinar_analytics/record/$ page28126572.html [NC]
+
+RewriteRule ^ph/webinars2$ page28798320.html [NC]
+RewriteRule ^ph/webinars2/$ page28798320.html [NC]
+
+RewriteRule ^ph/record/template$ page35949427.html [NC]
+RewriteRule ^ph/record/template/$ page35949427.html [NC]
+
+RewriteRule ^t/custom_timer$ page29811584.html [NC]
+RewriteRule ^t/custom_timer/$ page29811584.html [NC]
+
+RewriteRule ^t/ph/thanks$ page28083348.html [NC]
+RewriteRule ^t/ph/thanks/$ page28083348.html [NC]
+
+RewriteRule ^ph/data-analyst2$ page27084444.html [NC]
+RewriteRule ^ph/data-analyst2/$ page27084444.html [NC]
+
+RewriteRule ^ph/digital-marketing$ page27445404.html [NC]
+RewriteRule ^ph/digital-marketing/$ page27445404.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhafirstweb$ page29832611.html [NC]
+RewriteRule ^ph/da/webinar_mikhafirstweb/$ page29832611.html [NC]
+
+RewriteRule ^ind/refund$ page27871907.html [NC]
+RewriteRule ^ind/refund/$ page27871907.html [NC]
+
+RewriteRule ^termsofuse$ page27097786.html [NC]
+RewriteRule ^termsofuse/$ page27097786.html [NC]
+
+RewriteRule ^ind/about$ page36172235.html [NC]
+RewriteRule ^ind/about/$ page36172235.html [NC]
+
+RewriteRule ^indonesia_thanks$ page27160309.html [NC]
+RewriteRule ^indonesia_thanks/$ page27160309.html [NC]
+
+RewriteRule ^payment/30000$ page28525049.html [NC]
+RewriteRule ^payment/30000/$ page28525049.html [NC]
+
+RewriteRule ^wd$ page31079679.html [NC]
+RewriteRule ^wd/$ page31079679.html [NC]
+
+RewriteRule ^ph/data_science$ page28215305.html [NC]
+RewriteRule ^ph/data_science/$ page28215305.html [NC]
+
+RewriteRule ^philippines-web-developer$ page29905425.html [NC]
+RewriteRule ^philippines-web-developer/$ page29905425.html [NC]
+
+RewriteRule ^ind_thanks$ page27637536.html [NC]
+RewriteRule ^ind_thanks/$ page27637536.html [NC]
+
+RewriteRule ^ph/webinars$ page33111596.html [NC]
+RewriteRule ^ph/webinars/$ page33111596.html [NC]
+
+RewriteRule ^hr/we_are_hiring$ page29445434.html [NC]
+RewriteRule ^hr/we_are_hiring/$ page29445434.html [NC]
+
+RewriteRule ^training_agreement$ page27729277.html [NC]
+RewriteRule ^training_agreement/$ page27729277.html [NC]
+
+RewriteRule ^t/awebinars$ page29431947.html [NC]
+RewriteRule ^t/awebinars/$ page29431947.html [NC]
+
+RewriteRule ^webinars$ page27325324.html [NC]
+RewriteRule ^webinars/$ page27325324.html [NC]
+
+RewriteRule ^payment/39500$ page28989590.html [NC]
+RewriteRule ^payment/39500/$ page28989590.html [NC]
+
+RewriteRule ^t/ind/thanks$ page28042655.html [NC]
+RewriteRule ^t/ind/thanks/$ page28042655.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhasecondweb$ page29870764.html [NC]
+RewriteRule ^ph/da/webinar_mikhasecondweb/$ page29870764.html [NC]
+
+RewriteRule ^on$ page28593870.html [NC]
+RewriteRule ^on/$ page28593870.html [NC]
+
+RewriteRule ^ind/web0205/record$ page35974125.html [NC]
+RewriteRule ^ind/web0205/record/$ page35974125.html [NC]
+
+RewriteRule ^webinar_python/record$ page28830199.html [NC]
+RewriteRule ^webinar_python/record/$ page28830199.html [NC]
+
+RewriteRule ^webinar_sql/record$ page27915787.html [NC]
+RewriteRule ^webinar_sql/record/$ page27915787.html [NC]
+
+RewriteRule ^webinar_analytics/thanks$ page27630100.html [NC]
+RewriteRule ^webinar_analytics/thanks/$ page27630100.html [NC]
+
+RewriteRule ^t/custom_filter$ page29853477.html [NC]
+RewriteRule ^t/custom_filter/$ page29853477.html [NC]
+
+RewriteRule ^ph/reviews2$ page33853497.html [NC]
+RewriteRule ^ph/reviews2/$ page33853497.html [NC]
+
+RewriteRule ^hr/vacancies/sales/head_of_sales_ph$ page29568321.html [NC]
+RewriteRule ^hr/vacancies/sales/head_of_sales_ph/$ page29568321.html [NC]
+
+RewriteRule ^da$ page34889352.html [NC]
+RewriteRule ^da/$ page34889352.html [NC]
+
+RewriteRule ^philippines-web-developer/thanks$ page29915533.html [NC]
+RewriteRule ^philippines-web-developer/thanks/$ page29915533.html [NC]
+
+RewriteRule ^payment/42000$ page28989606.html [NC]
+RewriteRule ^payment/42000/$ page28989606.html [NC]
+
+RewriteRule ^ph/da/webinar_millicentprofessions$ page31647405.html [NC]
+RewriteRule ^ph/da/webinar_millicentprofessions/$ page31647405.html [NC]
+
+RewriteRule ^test-page-fb$ page31101873.html [NC]
+RewriteRule ^test-page-fb/$ page31101873.html [NC]
+
+RewriteRule ^ind/web2404/record$ page34177208.html [NC]
+RewriteRule ^ind/web2404/record/$ page34177208.html [NC]
+
+RewriteRule ^s/referralprogramterms$ page32251839.html [NC]
+RewriteRule ^s/referralprogramterms/$ page32251839.html [NC]
+
+RewriteRule ^philippines-data-analyst$ page27119572.html [NC]
+RewriteRule ^philippines-data-analyst/$ page27119572.html [NC]
+
+RewriteRule ^ph/offer_july$ page28761564.html [NC]
+RewriteRule ^ph/offer_july/$ page28761564.html [NC]
+
+RewriteRule ^t/ind/webspecial$ page28042988.html [NC]
+RewriteRule ^t/ind/webspecial/$ page28042988.html [NC]
+
+RewriteRule ^ind/test$ page25430259.html [NC]
+RewriteRule ^ind/test/$ page25430259.html [NC]
+
+RewriteRule ^ind/webinars$ page34643962.html [NC]
+RewriteRule ^ind/webinars/$ page34643962.html [NC]
+
+RewriteRule ^t/css$ page27932935.html [NC]
+RewriteRule ^t/css/$ page27932935.html [NC]
+
+RewriteRule ^s/referralprogramterms-old$ page32354861.html [NC]
+RewriteRule ^s/referralprogramterms-old/$ page32354861.html [NC]
+
+RewriteRule ^ph/offer_oneplusone$ page29878606.html [NC]
+RewriteRule ^ph/offer_oneplusone/$ page29878606.html [NC]
+
+RewriteRule ^t/ind/question$ page28043366.html [NC]
+RewriteRule ^t/ind/question/$ page28043366.html [NC]
+
+RewriteRule ^philippines-digital-marketing$ page27160213.html [NC]
+RewriteRule ^philippines-digital-marketing/$ page27160213.html [NC]
+
+RewriteRule ^webinar_5tools/record$ page29184672.html [NC]
+RewriteRule ^webinar_5tools/record/$ page29184672.html [NC]
+
+RewriteRule ^ph/reviews$ page34078369.html [NC]
+RewriteRule ^ph/reviews/$ page34078369.html [NC]
+
+RewriteRule ^hr/vacancies/sales/head_of_sales_ind$ page29866158.html [NC]
+RewriteRule ^hr/vacancies/sales/head_of_sales_ind/$ page29866158.html [NC]
+
+RewriteRule ^philippines-brand$ page33299120.html [NC]
+RewriteRule ^philippines-brand/$ page33299120.html [NC]
+
+RewriteRule ^payment/45000$ page28989620.html [NC]
+RewriteRule ^payment/45000/$ page28989620.html [NC]
+
+RewriteRule ^ph/da/webinar_python$ page28805560.html [NC]
+RewriteRule ^ph/da/webinar_python/$ page28805560.html [NC]
+
+RewriteRule ^form_test$ page31876047.html [NC]
+RewriteRule ^form_test/$ page31876047.html [NC]
+
+RewriteRule ^ph/webinar_freelance/thanks$ page27637968.html [NC]
+RewriteRule ^ph/webinar_freelance/thanks/$ page27637968.html [NC]
+
+RewriteRule ^philippines-data-analyst/thanks$ page31505108.html [NC]
+RewriteRule ^philippines-data-analyst/thanks/$ page31505108.html [NC]
+
+RewriteRule ^tiktok/philippines-web-developer$ page31114454.html [NC]
+RewriteRule ^tiktok/philippines-web-developer/$ page31114454.html [NC]
+
+RewriteRule ^discord$ page28843006.html [NC]
+RewriteRule ^discord/$ page28843006.html [NC]
+
+RewriteRule ^ind/reviews$ page34337048.html [NC]
+RewriteRule ^ind/reviews/$ page34337048.html [NC]
+
+RewriteRule ^millicentstory/record$ page29476656.html [NC]
+RewriteRule ^millicentstory/record/$ page29476656.html [NC]
+
+RewriteRule ^ind/data-analyst2$ page27879218.html [NC]
+RewriteRule ^ind/data-analyst2/$ page27879218.html [NC]
+
+RewriteRule ^webinar_dataanalytics/thanks$ page27883379.html [NC]
+RewriteRule ^webinar_dataanalytics/thanks/$ page27883379.html [NC]
+
+RewriteRule ^joindiscord$ page29002359.html [NC]
+RewriteRule ^joindiscord/$ page29002359.html [NC]
+
+RewriteRule ^t/gift_checkbox$ page31441528.html [NC]
+RewriteRule ^t/gift_checkbox/$ page31441528.html [NC]
+
+RewriteRule ^kebijakan_privasi$ page27160208.html [NC]
+RewriteRule ^kebijakan_privasi/$ page27160208.html [NC]
+
+RewriteRule ^test-fb-thanks$ page31090084.html [NC]
+RewriteRule ^test-fb-thanks/$ page31090084.html [NC]
+
+RewriteRule ^ind/da/webinar_hendrafirst$ page32164785.html [NC]
+RewriteRule ^ind/da/webinar_hendrafirst/$ page32164785.html [NC]
+
+RewriteRule ^ind/da/webispecial$ page30311863.html [NC]
+RewriteRule ^ind/da/webispecial/$ page30311863.html [NC]
+
+RewriteRule ^payment/3212$ page28989641.html [NC]
+RewriteRule ^payment/3212/$ page28989641.html [NC]
+
+RewriteRule ^hr/vacancies/sales/sales_specialist_ph_remote$ page29746397.html [NC]
+RewriteRule ^hr/vacancies/sales/sales_specialist_ph_remote/$ page29746397.html [NC]
+
+RewriteRule ^t/opt$ page27952624.html [NC]
+RewriteRule ^t/opt/$ page27952624.html [NC]
+
+RewriteRule ^webspecial_analytics_info$ page27599857.html [NC]
+RewriteRule ^webspecial_analytics_info/$ page27599857.html [NC]
+
+RewriteRule ^t/dads$ page28222467.html [NC]
+RewriteRule ^t/dads/$ page28222467.html [NC]
+
+RewriteRule ^ph/thanks$ page29145859.html [NC]
+RewriteRule ^ph/thanks/$ page29145859.html [NC]
+
+RewriteRule ^singson_mata/record$ page29774644.html [NC]
+RewriteRule ^singson_mata/record/$ page29774644.html [NC]
+
+RewriteRule ^ketentuan_penggunaan$ page27173177.html [NC]
+RewriteRule ^ketentuan_penggunaan/$ page27173177.html [NC]
+
+RewriteRule ^hr/vacancies/sales/sales_specialist_indonesia$ page32260165.html [NC]
+RewriteRule ^hr/vacancies/sales/sales_specialist_indonesia/$ page32260165.html [NC]
+
+RewriteRule ^ind/data-analyst$ page36568141.html [NC]
+RewriteRule ^ind/data-analyst/$ page36568141.html [NC]
+
+RewriteRule ^ph/da/webi$ page32836438.html [NC]
+RewriteRule ^ph/da/webi/$ page32836438.html [NC]
+
+RewriteRule ^ph/webinar_excel$ page27805529.html [NC]
+RewriteRule ^ph/webinar_excel/$ page27805529.html [NC]
+
+RewriteRule ^payment/33500$ page29388157.html [NC]
+RewriteRule ^payment/33500/$ page29388157.html [NC]
+
+RewriteRule ^ph$ page27493777.html [NC]
+RewriteRule ^ph/$ page27493777.html [NC]
+
+RewriteRule ^philippines-da$ page30890168.html [NC]
+RewriteRule ^philippines-da/$ page30890168.html [NC]
+
+RewriteRule ^ph/da/webinar_sql/thanks$ page27872979.html [NC]
+RewriteRule ^ph/da/webinar_sql/thanks/$ page27872979.html [NC]
+
+RewriteRule ^ind/joindiscord$ page29681894.html [NC]
+RewriteRule ^ind/joindiscord/$ page29681894.html [NC]
+
+RewriteRule ^perjanjian_pelatihan$ page28133666.html [NC]
+RewriteRule ^perjanjian_pelatihan/$ page28133666.html [NC]
+
+RewriteRule ^t/mentor$ page29036089.html [NC]
+RewriteRule ^t/mentor/$ page29036089.html [NC]
+
+RewriteRule ^sell_landing$ page23132503.html [NC]
+RewriteRule ^sell_landing/$ page23132503.html [NC]
+
+RewriteRule ^hr/vacancies/sales/quality_control_specialist_ph_remote$ page29866586.html [NC]
+RewriteRule ^hr/vacancies/sales/quality_control_specialist_ph_remote/$ page29866586.html [NC]
+
+RewriteRule ^ph/tiktok/data-analyst$ page30713229.html [NC]
+RewriteRule ^ph/tiktok/data-analyst/$ page30713229.html [NC]
+
+RewriteRule ^thanks$ page27160219.html [NC]
+RewriteRule ^thanks/$ page27160219.html [NC]
+
+RewriteRule ^ph/digital-pack$ page29578923.html [NC]
+RewriteRule ^ph/digital-pack/$ page29578923.html [NC]
+
+RewriteRule ^ph/webinar_excel/thanks$ page27806128.html [NC]
+RewriteRule ^ph/webinar_excel/thanks/$ page27806128.html [NC]
+
+RewriteRule ^webinar_mikhafirstweb/record$ page29876671.html [NC]
+RewriteRule ^webinar_mikhafirstweb/record/$ page29876671.html [NC]
+
+RewriteRule ^ph/da/webipage$ page32915928.html [NC]
+RewriteRule ^ph/da/webipage/$ page32915928.html [NC]
+
+RewriteRule ^payment/35600$ page29388252.html [NC]
+RewriteRule ^payment/35600/$ page29388252.html [NC]
+
+RewriteRule ^ph/da/webinar_sql$ page27871970.html [NC]
+RewriteRule ^ph/da/webinar_sql/$ page27871970.html [NC]
+
+RewriteRule ^ind/pemasaran-digital$ page27737337.html [NC]
+RewriteRule ^ind/pemasaran-digital/$ page27737337.html [NC]
+
+RewriteRule ^ind$ page27705338.html [NC]
+RewriteRule ^ind/$ page27705338.html [NC]
+
+RewriteRule ^ph/refocus_payment$ page30007301.html [NC]
+RewriteRule ^ph/refocus_payment/$ page30007301.html [NC]
+
+RewriteRule ^lang$ page27912966.html [NC]
+RewriteRule ^lang/$ page27912966.html [NC]
+
+RewriteRule ^webinar_mikhasecondweb/record$ page29912339.html [NC]
+RewriteRule ^webinar_mikhasecondweb/record/$ page29912339.html [NC]
+
+RewriteRule ^t/mentorslogo$ page27932703.html [NC]
+RewriteRule ^t/mentorslogo/$ page27932703.html [NC]
+
+RewriteRule ^fr$ page27906602.html [NC]
+RewriteRule ^fr/$ page27906602.html [NC]
+
+RewriteRule ^hr/vacancies/sales/quality_control_specialist_ind_remote$ page29866802.html [NC]
+RewriteRule ^hr/vacancies/sales/quality_control_specialist_ind_remote/$ page29866802.html [NC]
+
+RewriteRule ^ind/responden$ page29164966.html [NC]
+RewriteRule ^ind/responden/$ page29164966.html [NC]
+
+RewriteRule ^ph/test$ page27160239.html [NC]
+RewriteRule ^ph/test/$ page27160239.html [NC]
+
+RewriteRule ^ind/digital-pack$ page29948611.html [NC]
+RewriteRule ^ind/digital-pack/$ page29948611.html [NC]
+
+RewriteRule ^ph/da/webinar/typ/python$ page28272080.html [NC]
+RewriteRule ^ph/da/webinar/typ/python/$ page28272080.html [NC]
+
+RewriteRule ^indonesia-digital-marketing$ page27160300.html [NC]
+RewriteRule ^indonesia-digital-marketing/$ page27160300.html [NC]
+
+RewriteRule ^ph/da/webinar_5tools$ page29124591.html [NC]
+RewriteRule ^ph/da/webinar_5tools/$ page29124591.html [NC]
+
+RewriteRule ^ind/da/webinar/1205$ page33023992.html [NC]
+RewriteRule ^ind/da/webinar/1205/$ page33023992.html [NC]
+
+RewriteRule ^payment/37700$ page29388284.html [NC]
+RewriteRule ^payment/37700/$ page29388284.html [NC]
+
+RewriteRule ^t/ourstudentsworkin$ page27953935.html [NC]
+RewriteRule ^t/ourstudentsworkin/$ page27953935.html [NC]
+
+RewriteRule ^fs-js-developer$ page31480595.html [NC]
+RewriteRule ^fs-js-developer/$ page31480595.html [NC]
+
+RewriteRule ^payment/41907$ page29388308.html [NC]
+RewriteRule ^payment/41907/$ page29388308.html [NC]
+
+RewriteRule ^hr/vacancies/sales/senior_project_manager$ page31836955.html [NC]
+RewriteRule ^hr/vacancies/sales/senior_project_manager/$ page31836955.html [NC]
+
+RewriteRule ^ph/referral$ page29910843.html [NC]
+RewriteRule ^ph/referral/$ page29910843.html [NC]
+
+RewriteRule ^ind/da/webinar_dafromscratch$ page29162820.html [NC]
+RewriteRule ^ind/da/webinar_dafromscratch/$ page29162820.html [NC]
+
+RewriteRule ^ph/da/webinar_5tools/thanks$ page29131857.html [NC]
+RewriteRule ^ph/da/webinar_5tools/thanks/$ page29131857.html [NC]
+
+RewriteRule ^ph/webinar/oops$ page35876449.html [NC]
+RewriteRule ^ph/webinar/oops/$ page35876449.html [NC]
+
+RewriteRule ^webinar_millicentprofessions/record$ page31717525.html [NC]
+RewriteRule ^webinar_millicentprofessions/record/$ page31717525.html [NC]
+
+RewriteRule ^ph/special/data-analyst$ page32761003.html [NC]
+RewriteRule ^ph/special/data-analyst/$ page32761003.html [NC]
+
+RewriteRule ^da/questions-02$ page27615182.html [NC]
+RewriteRule ^da/questions-02/$ page27615182.html [NC]
+
+RewriteRule ^ind/da/webinar_dafromscratch/thanks$ page29163528.html [NC]
+RewriteRule ^ind/da/webinar_dafromscratch/thanks/$ page29163528.html [NC]
+
+RewriteRule ^hr/vacancies/sales/head_of_training$ page31837448.html [NC]
+RewriteRule ^hr/vacancies/sales/head_of_training/$ page31837448.html [NC]
+
+RewriteRule ^sptest$ page29374486.html [NC]
+RewriteRule ^sptest/$ page29374486.html [NC]
+
+RewriteRule ^dms/questions$ page27812892.html [NC]
+RewriteRule ^dms/questions/$ page27812892.html [NC]
+
+RewriteRule ^investing$ page31426365.html [NC]
+RewriteRule ^investing/$ page31426365.html [NC]
+
+RewriteRule ^ind/tiktok/data-analyst$ page31076685.html [NC]
+RewriteRule ^ind/tiktok/data-analyst/$ page31076685.html [NC]
+
+RewriteRule ^ph/da/webinar/3008$ page29811535.html [NC]
+RewriteRule ^ph/da/webinar/3008/$ page29811535.html [NC]
+
+RewriteRule ^ind/fs-js-developer$ page31851116.html [NC]
+RewriteRule ^ind/fs-js-developer/$ page31851116.html [NC]
+
+RewriteRule ^payment/35000$ page29741684.html [NC]
+RewriteRule ^payment/35000/$ page29741684.html [NC]
+
+RewriteRule ^ph/da/webinar_kaycefirstweb$ page33022609.html [NC]
+RewriteRule ^ph/da/webinar_kaycefirstweb/$ page33022609.html [NC]
+
+RewriteRule ^ph/referal$ page32061606.html [NC]
+RewriteRule ^ph/referal/$ page32061606.html [NC]
+
+RewriteRule ^ph/da/webinar_singson_mata$ page29515726.html [NC]
+RewriteRule ^ph/da/webinar_singson_mata/$ page29515726.html [NC]
+
+RewriteRule ^t/career$ page27949776.html [NC]
+RewriteRule ^t/career/$ page27949776.html [NC]
+
+RewriteRule ^wd/questions$ page30565907.html [NC]
+RewriteRule ^wd/questions/$ page30565907.html [NC]
+
+RewriteRule ^webinar_dataanalytics$ page27883038.html [NC]
+RewriteRule ^webinar_dataanalytics/$ page27883038.html [NC]
+
+RewriteRule ^t/slider_02$ page30661687.html [NC]
+RewriteRule ^t/slider_02/$ page30661687.html [NC]
+
+RewriteRule ^hr/vacancies/sales/regional_sales_director$ page31837815.html [NC]
+RewriteRule ^hr/vacancies/sales/regional_sales_director/$ page31837815.html [NC]
+
+RewriteRule ^payment/2000$ page29741723.html [NC]
+RewriteRule ^payment/2000/$ page29741723.html [NC]
+
+RewriteRule ^ph/da/webinar_python/thanks$ page28805834.html [NC]
+RewriteRule ^ph/da/webinar_python/thanks/$ page28805834.html [NC]
+
+RewriteRule ^refocus$ page33269455.html [NC]
+RewriteRule ^refocus/$ page33269455.html [NC]
+
+RewriteRule ^t/success$ page27950585.html [NC]
+RewriteRule ^t/success/$ page27950585.html [NC]
+
+RewriteRule ^philippines-wd-leadformup$ page33451349.html [NC]
+RewriteRule ^philippines-wd-leadformup/$ page33451349.html [NC]
+
+RewriteRule ^t/jobguarantee$ page27951232.html [NC]
+RewriteRule ^t/jobguarantee/$ page27951232.html [NC]
+
+RewriteRule ^ph/da/webinar/python$ page28264896.html [NC]
+RewriteRule ^ph/da/webinar/python/$ page28264896.html [NC]
+
+RewriteRule ^payment/41844$ page30308308.html [NC]
+RewriteRule ^payment/41844/$ page30308308.html [NC]
+
+RewriteRule ^hr/vacancies/marketing/google_ads_manager$ page29866986.html [NC]
+RewriteRule ^hr/vacancies/marketing/google_ads_manager/$ page29866986.html [NC]
+
+RewriteRule ^ph/da/webinar_millecenstory/thanks$ page29402871.html [NC]
+RewriteRule ^ph/da/webinar_millecenstory/thanks/$ page29402871.html [NC]
+
+RewriteRule ^hr/vacancies/marketing/chief_marketing_officer$ page29867285.html [NC]
+RewriteRule ^hr/vacancies/marketing/chief_marketing_officer/$ page29867285.html [NC]
+
+RewriteRule ^philippines-wd-scroll$ page33453446.html [NC]
+RewriteRule ^philippines-wd-scroll/$ page33453446.html [NC]
+
+RewriteRule ^payment/33500wd$ page31198132.html [NC]
+RewriteRule ^payment/33500wd/$ page31198132.html [NC]
+
+RewriteRule ^ph/da/webinar_singson_mata/thanks$ page29516250.html [NC]
+RewriteRule ^ph/da/webinar_singson_mata/thanks/$ page29516250.html [NC]
+
+RewriteRule ^t/testimonials$ page27952103.html [NC]
+RewriteRule ^t/testimonials/$ page27952103.html [NC]
+
+RewriteRule ^webinar_analytics$ page27630063.html [NC]
+RewriteRule ^webinar_analytics/$ page27630063.html [NC]
+
+RewriteRule ^refocus_22$ page31511863.html [NC]
+RewriteRule ^refocus_22/$ page31511863.html [NC]
+
+RewriteRule ^ph/tiktok/da/webinar_singson_mata$ page30741120.html [NC]
+RewriteRule ^ph/tiktok/da/webinar_singson_mata/$ page30741120.html [NC]
+
+RewriteRule ^philippines-frontend-dev-test$ page33852815.html [NC]
+RewriteRule ^philippines-frontend-dev-test/$ page33852815.html [NC]
+
+RewriteRule ^payment/35600wd$ page31198162.html [NC]
+RewriteRule ^payment/35600wd/$ page31198162.html [NC]
+
+RewriteRule ^hr/vacancies/marketing/content_marketing_producer$ page29867507.html [NC]
+RewriteRule ^hr/vacancies/marketing/content_marketing_producer/$ page29867507.html [NC]
+
+RewriteRule ^hr/vacancies/marketing/performance_marketing_manager$ page29900294.html [NC]
+RewriteRule ^hr/vacancies/marketing/performance_marketing_manager/$ page29900294.html [NC]
+
+RewriteRule ^t/media$ page27932536.html [NC]
+RewriteRule ^t/media/$ page27932536.html [NC]
+
+RewriteRule ^ph/customer/referral$ page34699977.html [NC]
+RewriteRule ^ph/customer/referral/$ page34699977.html [NC]
+
+RewriteRule ^t/js$ page34683858.html [NC]
+RewriteRule ^t/js/$ page34683858.html [NC]
+
+RewriteRule ^payment/37700wd$ page31198187.html [NC]
+RewriteRule ^payment/37700wd/$ page31198187.html [NC]
+
+RewriteRule ^t/footers$ page27917926.html [NC]
+RewriteRule ^t/footers/$ page27917926.html [NC]
+
+RewriteRule ^ind/customer/referral$ page34700148.html [NC]
+RewriteRule ^ind/customer/referral/$ page34700148.html [NC]
+
+RewriteRule ^hr/vacancies/marketing/ua_teamlead$ page29900488.html [NC]
+RewriteRule ^hr/vacancies/marketing/ua_teamlead/$ page29900488.html [NC]
+
+RewriteRule ^payment/41907wd$ page31198202.html [NC]
+RewriteRule ^payment/41907wd/$ page31198202.html [NC]
+
+RewriteRule ^payment/35000wd$ page31198218.html [NC]
+RewriteRule ^payment/35000wd/$ page31198218.html [NC]
+
+RewriteRule ^hr/vacancies/marketing/content_project_manager$ page32155486.html [NC]
+RewriteRule ^hr/vacancies/marketing/content_project_manager/$ page32155486.html [NC]
+
+RewriteRule ^ind/da/webispecial/data$ page28296151.html [NC]
+RewriteRule ^ind/da/webispecial/data/$ page28296151.html [NC]
+
+RewriteRule ^ph/data-analytics-mini-course$ page35112180.html [NC]
+RewriteRule ^ph/data-analytics-mini-course/$ page35112180.html [NC]
+
+RewriteRule ^ph/data-analytics-mini-course-t$ page36327957.html [NC]
+RewriteRule ^ph/data-analytics-mini-course-t/$ page36327957.html [NC]
+
+RewriteRule ^payment_da$ page27946779.html [NC]
+RewriteRule ^payment_da/$ page27946779.html [NC]
+
+RewriteRule ^ind/web2504/record$ page34753349.html [NC]
+RewriteRule ^ind/web2504/record/$ page34753349.html [NC]
+
+RewriteRule ^hr/vacancies/product/product_director$ page29901141.html [NC]
+RewriteRule ^hr/vacancies/product/product_director/$ page29901141.html [NC]
+
+RewriteRule ^ind/data-analytics-mini-course$ page36536696.html [NC]
+RewriteRule ^ind/data-analytics-mini-course/$ page36536696.html [NC]
+
+RewriteRule ^ind/web2704/record$ page34867357.html [NC]
+RewriteRule ^ind/web2704/record/$ page34867357.html [NC]
+
+RewriteRule ^payment$ page26639784.html [NC]
+RewriteRule ^payment/$ page26639784.html [NC]
+
+RewriteRule ^hr/vacancies/product/lead_product_manager$ page32046826.html [NC]
+RewriteRule ^hr/vacancies/product/lead_product_manager/$ page32046826.html [NC]
+
+RewriteRule ^hr/vacancies/bizdev/business_development_head_ind$ page29903154.html [NC]
+RewriteRule ^hr/vacancies/bizdev/business_development_head_ind/$ page29903154.html [NC]
+
+RewriteRule ^payment/47100wd$ page31814737.html [NC]
+RewriteRule ^payment/47100wd/$ page31814737.html [NC]
+
+RewriteRule ^ind/web2804/record$ page34901091.html [NC]
+RewriteRule ^ind/web2804/record/$ page34901091.html [NC]
+
+RewriteRule ^ind/data-analytics-mini-course-t$ page36546991.html [NC]
+RewriteRule ^ind/data-analytics-mini-course-t/$ page36546991.html [NC]
+
+RewriteRule ^ind/t/data-analyst$ page34701594.html [NC]
+RewriteRule ^ind/t/data-analyst/$ page34701594.html [NC]
+
+RewriteRule ^payment/49987wd$ page32351523.html [NC]
+RewriteRule ^payment/49987wd/$ page32351523.html [NC]
+
+RewriteRule ^hr/vacancies/finance_legal/accountant$ page29903475.html [NC]
+RewriteRule ^hr/vacancies/finance_legal/accountant/$ page29903475.html [NC]
+
+RewriteRule ^ind/da/webinar_hendrafirst/thanks$ page30437805.html [NC]
+RewriteRule ^ind/da/webinar_hendrafirst/thanks/$ page30437805.html [NC]
+
+RewriteRule ^ind/r/data-analyst$ page35079468.html [NC]
+RewriteRule ^ind/r/data-analyst/$ page35079468.html [NC]
+
+RewriteRule ^payment/53059wd$ page32351560.html [NC]
+RewriteRule ^payment/53059wd/$ page32351560.html [NC]
+
+RewriteRule ^hr/vacancies/copy_smm/proofreader$ page29903731.html [NC]
+RewriteRule ^hr/vacancies/copy_smm/proofreader/$ page29903731.html [NC]
+
+RewriteRule ^ind/t1/data-analyst$ page35750451.html [NC]
+RewriteRule ^ind/t1/data-analyst/$ page35750451.html [NC]
+
+RewriteRule ^payment/56227wd$ page32351575.html [NC]
+RewriteRule ^payment/56227wd/$ page32351575.html [NC]
+
+RewriteRule ^hr/vacancies/content/middle_content_developer$ page29903813.html [NC]
+RewriteRule ^hr/vacancies/content/middle_content_developer/$ page29903813.html [NC]
+
+RewriteRule ^hr/vacancies/content/producer_video_production_rus$ page32156160.html [NC]
+RewriteRule ^hr/vacancies/content/producer_video_production_rus/$ page32156160.html [NC]
+
+RewriteRule ^ind/t2/data-analyst$ page35850277.html [NC]
+RewriteRule ^ind/t2/data-analyst/$ page35850277.html [NC]
+
+RewriteRule ^payment/59587wd$ page32351596.html [NC]
+RewriteRule ^payment/59587wd/$ page32351596.html [NC]
+
+RewriteRule ^webinar/producthunt$ page32761133.html [NC]
+RewriteRule ^webinar/producthunt/$ page32761133.html [NC]
+
+RewriteRule ^hr/vacancies/content/producer_video_production$ page32156217.html [NC]
+RewriteRule ^hr/vacancies/content/producer_video_production/$ page32156217.html [NC]
+
+RewriteRule ^pay_da$ page28261963.html [NC]
+RewriteRule ^pay_da/$ page28261963.html [NC]
+
+RewriteRule ^ind/t3/data-analyst$ page35905882.html [NC]
+RewriteRule ^ind/t3/data-analyst/$ page35905882.html [NC]
+
+RewriteRule ^hr/vacancies/hr/hr_business_partner_serbia$ page29903912.html [NC]
+RewriteRule ^hr/vacancies/hr/hr_business_partner_serbia/$ page29903912.html [NC]
+
+RewriteRule ^ind/t4/data-analyst$ page36086781.html [NC]
+RewriteRule ^ind/t4/data-analyst/$ page36086781.html [NC]
+
+RewriteRule ^hr/vacancies/hr/recruiter$ page29905090.html [NC]
+RewriteRule ^hr/vacancies/hr/recruiter/$ page29905090.html [NC]
+
+RewriteRule ^hr/vacancies/mentors/mentor_data_analyst$ page32035226.html [NC]
+RewriteRule ^hr/vacancies/mentors/mentor_data_analyst/$ page32035226.html [NC]
+
+RewriteRule ^hr/vacancies/mentors/mentor_web_developer$ page32036159.html [NC]
+RewriteRule ^hr/vacancies/mentors/mentor_web_developer/$ page32036159.html [NC]
+
+RewriteRule ^hr/vacancies/design/smm_designer$ page32156384.html [NC]
+RewriteRule ^hr/vacancies/design/smm_designer/$ page32156384.html [NC]
+
+RewriteRule ^hr/vacancies/careercenter/executive_director$ page32156453.html [NC]
+RewriteRule ^hr/vacancies/careercenter/executive_director/$ page32156453.html [NC]
+
+RewriteRule ^hr/vacancies/careercenter/community_manager$ page32156550.html [NC]
+RewriteRule ^hr/vacancies/careercenter/community_manager/$ page32156550.html [NC]
+
+RewriteRule ^hr/vacancies/careercenter/career_coach$ page32156630.html [NC]
+RewriteRule ^hr/vacancies/careercenter/career_coach/$ page32156630.html [NC]
+
+RewriteRule ^hr/vacancies/careercenter/business_development_specialist$ page32156676.html [NC]
+RewriteRule ^hr/vacancies/careercenter/business_development_specialist/$ page32156676.html [NC]
+
+RewriteRule ^hr/vacancies/careercenter/lead_product_manager$ page32156718.html [NC]
+RewriteRule ^hr/vacancies/careercenter/lead_product_manager/$ page32156718.html [NC]
+
+RewriteRule ^hr/vacancies/careercenter/operations_team_lead$ page32156748.html [NC]
+RewriteRule ^hr/vacancies/careercenter/operations_team_lead/$ page32156748.html [NC]
+
+RewriteRule ^community/smm_community_specialist$ page32396240.html [NC]
+RewriteRule ^community/smm_community_specialist/$ page32396240.html [NC]
+
+RewriteRule ^hr/vacancies/content/lx_designer$ page32397221.html [NC]
+RewriteRule ^hr/vacancies/content/lx_designer/$ page32397221.html [NC]
+
+RewriteRule ^hr/vacancies/community/community_manager_ph$ page32605448.html [NC]
+RewriteRule ^hr/vacancies/community/community_manager_ph/$ page32605448.html [NC]
+
+RewriteRule ^hr/marketing/influencer_marketing_specialist$ page32748299.html [NC]
+RewriteRule ^hr/marketing/influencer_marketing_specialist/$ page32748299.html [NC]
+
+RewriteRule ^hr/financial_controller$ page32749496.html [NC]
+RewriteRule ^hr/financial_controller/$ page32749496.html [NC]
+
+RewriteRule ^hr/finance/financial_controller$ page32749634.html [NC]
+RewriteRule ^hr/finance/financial_controller/$ page32749634.html [NC]
+
+RewriteRule ^hr/vacancies/sales/head_of_qc$ page32847945.html [NC]
+RewriteRule ^hr/vacancies/sales/head_of_qc/$ page32847945.html [NC]
+
+RewriteRule ^hr/vacancies/video_editor$ page33149522.html [NC]
+RewriteRule ^hr/vacancies/video_editor/$ page33149522.html [NC]
+
+RewriteRule ^hr/vacancy/copywriter_cc$ page33517329.html [NC]
+RewriteRule ^hr/vacancy/copywriter_cc/$ page33517329.html [NC]
+
+RewriteRule ^copy_editor$ page33526069.html [NC]
+RewriteRule ^copy_editor/$ page33526069.html [NC]
+
+RewriteRule ^hr/vacancies/community/community_manager_id$ page33706881.html [NC]
+RewriteRule ^hr/vacancies/community/community_manager_id/$ page33706881.html [NC]
+
+RewriteRule ^hr/vacancies/moderator$ page33735919.html [NC]
+RewriteRule ^hr/vacancies/moderator/$ page33735919.html [NC]
+
+RewriteRule ^hr/vacancies/senior_lawyer$ page33844060.html [NC]
+RewriteRule ^hr/vacancies/senior_lawyer/$ page33844060.html [NC]
+
+RewriteRule ^performance_marketing_manager$ page33886087.html [NC]
+RewriteRule ^performance_marketing_manager/$ page33886087.html [NC]
+
+RewriteRule ^head_of_ua$ page33886370.html [NC]
+RewriteRule ^head_of_ua/$ page33886370.html [NC]
+
+RewriteRule ^head_of_b2b$ page34245133.html [NC]
+RewriteRule ^head_of_b2b/$ page34245133.html [NC]
+
+RewriteRule ^hr/vacancies/lead_accountant$ page34335176.html [NC]
+RewriteRule ^hr/vacancies/lead_accountant/$ page34335176.html [NC]
+
+RewriteRule ^hr/vacancies/community/customer_support_id$ page34525315.html [NC]
+RewriteRule ^hr/vacancies/community/customer_support_id/$ page34525315.html [NC]
+
+RewriteRule ^pagenotfound$ page27610637.html [NC]
+RewriteRule ^pagenotfound/$ page27610637.html [NC]
+
+RewriteRule ^--$ page32384803.html [NC]
+RewriteRule ^--/$ page32384803.html [NC]
+
+RewriteRule ^test--$ page33062025.html [NC]
+RewriteRule ^test--/$ page33062025.html [NC]
+
+RewriteRule ^ph/responden$ page29166332.html [NC]
+RewriteRule ^ph/responden/$ page29166332.html [NC]
+
+RewriteRule ^ind/da/webispecial/dafromscratch$ page29244589.html [NC]
+RewriteRule ^ind/da/webispecial/dafromscratch/$ page29244589.html [NC]
+
+RewriteRule ^ph/da/webispecial/mikhafirstweb$ page29833904.html [NC]
+RewriteRule ^ph/da/webispecial/mikhafirstweb/$ page29833904.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhasecondweb/thanks$ page29870874.html [NC]
+RewriteRule ^ph/da/webinar_mikhasecondweb/thanks/$ page29870874.html [NC]
+
+RewriteRule ^ph/da/webispecial/mikhasecondweb$ page29870924.html [NC]
+RewriteRule ^ph/da/webispecial/mikhasecondweb/$ page29870924.html [NC]
+
+RewriteRule ^ph/wd/webspecial/webdeveloper$ page30571765.html [NC]
+RewriteRule ^ph/wd/webspecial/webdeveloper/$ page30571765.html [NC]
+
+RewriteRule ^da/questions$ page30634421.html [NC]
+RewriteRule ^da/questions/$ page30634421.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhafirstweb/thanks$ page29833775.html [NC]
+RewriteRule ^ph/da/webinar_mikhafirstweb/thanks/$ page29833775.html [NC]
+
+RewriteRule ^questions$ page31302876.html [NC]
+RewriteRule ^questions/$ page31302876.html [NC]
+
+RewriteRule ^fs-js-developer/thanks$ page31496888.html [NC]
+RewriteRule ^fs-js-developer/thanks/$ page31496888.html [NC]
+
+RewriteRule ^ph/da/webinar_millicentprofessions/thanks$ page31647582.html [NC]
+RewriteRule ^ph/da/webinar_millicentprofessions/thanks/$ page31647582.html [NC]
+
+RewriteRule ^frontenddeveloper$ page32040915.html [NC]
+RewriteRule ^frontenddeveloper/$ page32040915.html [NC]
+
+RewriteRule ^yourstartinit$ page32041065.html [NC]
+RewriteRule ^yourstartinit/$ page32041065.html [NC]
+
+RewriteRule ^ind/da/webispecial/hendrafirst$ page32279145.html [NC]
+RewriteRule ^ind/da/webispecial/hendrafirst/$ page32279145.html [NC]
+
+RewriteRule ^webinar_hendrafirst/record$ page32279916.html [NC]
+RewriteRule ^webinar_hendrafirst/record/$ page32279916.html [NC]
+
+RewriteRule ^ind/da/questions$ page32388501.html [NC]
+RewriteRule ^ind/da/questions/$ page32388501.html [NC]
+
+RewriteRule ^ph_typ_template$ page32590606.html [NC]
+RewriteRule ^ph_typ_template/$ page32590606.html [NC]
+
+RewriteRule ^ind_typ_template$ page32600306.html [NC]
+RewriteRule ^ind_typ_template/$ page32600306.html [NC]
+
+RewriteRule ^ph/offer/3in1$ page32649617.html [NC]
+RewriteRule ^ph/offer/3in1/$ page32649617.html [NC]
+
+RewriteRule ^ph/offer/discount23$ page32653833.html [NC]
+RewriteRule ^ph/offer/discount23/$ page32653833.html [NC]
+
+RewriteRule ^ph/webinar/f$ page32664330.html [NC]
+RewriteRule ^ph/webinar/f/$ page32664330.html [NC]
+
+RewriteRule ^ph/offer/t/3in1$ page32754279.html [NC]
+RewriteRule ^ph/offer/t/3in1/$ page32754279.html [NC]
+
+RewriteRule ^ph/s/privacy$ page32761996.html [NC]
+RewriteRule ^ph/s/privacy/$ page32761996.html [NC]
+
+RewriteRule ^ph/s/termsofuse$ page32763186.html [NC]
+RewriteRule ^ph/s/termsofuse/$ page32763186.html [NC]
+
+RewriteRule ^ph/s/training_agreement$ page32763608.html [NC]
+RewriteRule ^ph/s/training_agreement/$ page32763608.html [NC]
+
+RewriteRule ^ph/offer/bundle$ page32767709.html [NC]
+RewriteRule ^ph/offer/bundle/$ page32767709.html [NC]
+
+RewriteRule ^ph/da/webispecial/bundle$ page32820367.html [NC]
+RewriteRule ^ph/da/webispecial/bundle/$ page32820367.html [NC]
+
+RewriteRule ^ph/da/offer/agrement$ page32847960.html [NC]
+RewriteRule ^ph/da/offer/agrement/$ page32847960.html [NC]
+
+RewriteRule ^ph/da/offer/agrement2$ page32848146.html [NC]
+RewriteRule ^ph/da/offer/agrement2/$ page32848146.html [NC]
+
+RewriteRule ^ph/da/offer/agrement3$ page32848241.html [NC]
+RewriteRule ^ph/da/offer/agrement3/$ page32848241.html [NC]
+
+RewriteRule ^ph/da/test/career/welcome$ page33741944.html [NC]
+RewriteRule ^ph/da/test/career/welcome/$ page33741944.html [NC]
+
+RewriteRule ^ph/da/test/career$ page33742858.html [NC]
+RewriteRule ^ph/da/test/career/$ page33742858.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2303_2$ page33024109.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2303_2/$ page33024109.html [NC]
+
+RewriteRule ^ph/offer/thanks$ page33105155.html [NC]
+RewriteRule ^ph/offer/thanks/$ page33105155.html [NC]
+
+RewriteRule ^payment/47107$ page33129783.html [NC]
+RewriteRule ^payment/47107/$ page33129783.html [NC]
+
+RewriteRule ^payment/56707wd$ page33129824.html [NC]
+RewriteRule ^payment/56707wd/$ page33129824.html [NC]
+
+RewriteRule ^ph/wd/webinar_julianfirstweb$ page33214366.html [NC]
+RewriteRule ^ph/wd/webinar_julianfirstweb/$ page33214366.html [NC]
+
+RewriteRule ^ph/wd/webinar_julianfirstweb/thanks$ page33215825.html [NC]
+RewriteRule ^ph/wd/webinar_julianfirstweb/thanks/$ page33215825.html [NC]
+
+RewriteRule ^ph/da/webispecial/julianfirstweb$ page33216022.html [NC]
+RewriteRule ^ph/da/webispecial/julianfirstweb/$ page33216022.html [NC]
+
+RewriteRule ^ph/da/webinar/2403$ page33223644.html [NC]
+RewriteRule ^ph/da/webinar/2403/$ page33223644.html [NC]
+
+RewriteRule ^webinar_julianfirstweb/record$ page33226203.html [NC]
+RewriteRule ^webinar_julianfirstweb/record/$ page33226203.html [NC]
+
+RewriteRule ^ph/da/webinar_kaycefirstweb/thanks$ page33335311.html [NC]
+RewriteRule ^ph/da/webinar_kaycefirstweb/thanks/$ page33335311.html [NC]
+
+RewriteRule ^ph/da/webispecial/kaycefirstweb$ page33335814.html [NC]
+RewriteRule ^ph/da/webispecial/kaycefirstweb/$ page33335814.html [NC]
+
+RewriteRule ^ph/da/quiz$ page33360303.html [NC]
+RewriteRule ^ph/da/quiz/$ page33360303.html [NC]
+
+RewriteRule ^ind/da/webinar/2303_2$ page33386004.html [NC]
+RewriteRule ^ind/da/webinar/2303_2/$ page33386004.html [NC]
+
+RewriteRule ^ph/da/webstartit$ page33394969.html [NC]
+RewriteRule ^ph/da/webstartit/$ page33394969.html [NC]
+
+RewriteRule ^t/web$ page33456313.html [NC]
+RewriteRule ^t/web/$ page33456313.html [NC]
+
+RewriteRule ^t/typ$ page33456554.html [NC]
+RewriteRule ^t/typ/$ page33456554.html [NC]
+
+RewriteRule ^price$ page35355673.html [NC]
+RewriteRule ^price/$ page35355673.html [NC]
+
+RewriteRule ^ph/da/webinar/quiz/thanks$ page33462825.html [NC]
+RewriteRule ^ph/da/webinar/quiz/thanks/$ page33462825.html [NC]
+
+RewriteRule ^ind/indodana-success$ page35468977.html [NC]
+RewriteRule ^ind/indodana-success/$ page35468977.html [NC]
+
+RewriteRule ^promo/dbs$ page35019766.html [NC]
+RewriteRule ^promo/dbs/$ page35019766.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhafirstweb_t2$ page33528828.html [NC]
+RewriteRule ^ph/da/webinar_mikhafirstweb_t2/$ page33528828.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhafirstweb_t1$ page33529775.html [NC]
+RewriteRule ^ph/da/webinar_mikhafirstweb_t1/$ page33529775.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhafirstweb_t1_1$ page33530978.html [NC]
+RewriteRule ^ph/da/webinar_mikhafirstweb_t1_1/$ page33530978.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhafirstweb_t4$ page33544445.html [NC]
+RewriteRule ^ph/da/webinar_mikhafirstweb_t4/$ page33544445.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhafirstweb_t3$ page33546401.html [NC]
+RewriteRule ^ph/da/webinar_mikhafirstweb_t3/$ page33546401.html [NC]
+
+RewriteRule ^webinar_kaycefirstweb/record$ page33564877.html [NC]
+RewriteRule ^webinar_kaycefirstweb/record/$ page33564877.html [NC]
+
+RewriteRule ^payment/67404$ page33573613.html [NC]
+RewriteRule ^payment/67404/$ page33573613.html [NC]
+
+RewriteRule ^payment/81804$ page33573674.html [NC]
+RewriteRule ^payment/81804/$ page33573674.html [NC]
+
+RewriteRule ^payment/81084wd$ page33573724.html [NC]
+RewriteRule ^payment/81084wd/$ page33573724.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhafirstweb_t5$ page33590288.html [NC]
+RewriteRule ^ph/da/webinar_mikhafirstweb_t5/$ page33590288.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2503_1$ page33655405.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2503_1/$ page33655405.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhafirstweb_t6$ page33751363.html [NC]
+RewriteRule ^ph/da/webinar_mikhafirstweb_t6/$ page33751363.html [NC]
+
+RewriteRule ^payment/81084$ page33751689.html [NC]
+RewriteRule ^payment/81084/$ page33751689.html [NC]
+
+RewriteRule ^ph/da/webinar_box1$ page33778984.html [NC]
+RewriteRule ^ph/da/webinar_box1/$ page33778984.html [NC]
+
+RewriteRule ^ph/da/webinar_box2$ page33783871.html [NC]
+RewriteRule ^ph/da/webinar_box2/$ page33783871.html [NC]
+
+RewriteRule ^webinar_mikhafirstweb_box$ page33784264.html [NC]
+RewriteRule ^webinar_mikhafirstweb_box/$ page33784264.html [NC]
+
+RewriteRule ^ph/da/webinar/2603$ page33846799.html [NC]
+RewriteRule ^ph/da/webinar/2603/$ page33846799.html [NC]
+
+RewriteRule ^ph/da/webinar/1704_1$ page33847357.html [NC]
+RewriteRule ^ph/da/webinar/1704_1/$ page33847357.html [NC]
+
+RewriteRule ^ind/da/webinar/1302_t$ page33880813.html [NC]
+RewriteRule ^ind/da/webinar/1302_t/$ page33880813.html [NC]
+
+RewriteRule ^ind/da/webinar_shofiyyahfirst$ page33886204.html [NC]
+RewriteRule ^ind/da/webinar_shofiyyahfirst/$ page33886204.html [NC]
+
+RewriteRule ^ind/da/webinar_shofiyyahfirst/thanks$ page33886734.html [NC]
+RewriteRule ^ind/da/webinar_shofiyyahfirst/thanks/$ page33886734.html [NC]
+
+RewriteRule ^ind/da/webispecial/shofiyyahfirst$ page33886916.html [NC]
+RewriteRule ^ind/da/webispecial/shofiyyahfirst/$ page33886916.html [NC]
+
+RewriteRule ^ind/da/webinar/1702$ page33887672.html [NC]
+RewriteRule ^ind/da/webinar/1702/$ page33887672.html [NC]
+
+RewriteRule ^payment/56700$ page33901989.html [NC]
+RewriteRule ^payment/56700/$ page33901989.html [NC]
+
+RewriteRule ^payment/56700wd$ page33902042.html [NC]
+RewriteRule ^payment/56700wd/$ page33902042.html [NC]
+
+RewriteRule ^ph/wd/webinar/1702_t$ page33911713.html [NC]
+RewriteRule ^ph/wd/webinar/1702_t/$ page33911713.html [NC]
+
+RewriteRule ^ph/da/webinar/special/career$ page33914206.html [NC]
+RewriteRule ^ph/da/webinar/special/career/$ page33914206.html [NC]
+
+RewriteRule ^webinar_shofiyyahfirst/record$ page33935996.html [NC]
+RewriteRule ^webinar_shofiyyahfirst/record/$ page33935996.html [NC]
+
+RewriteRule ^ph/da/webinar/1403$ page33947117.html [NC]
+RewriteRule ^ph/da/webinar/1403/$ page33947117.html [NC]
+
+RewriteRule ^ind/da/webinar/2003_1$ page34035064.html [NC]
+RewriteRule ^ind/da/webinar/2003_1/$ page34035064.html [NC]
+
+RewriteRule ^ph/da/webinar/2002$ page34050858.html [NC]
+RewriteRule ^ph/da/webinar/2002/$ page34050858.html [NC]
+
+RewriteRule ^ind/da/webinar/2002$ page34051389.html [NC]
+RewriteRule ^ind/da/webinar/2002/$ page34051389.html [NC]
+
+RewriteRule ^philippines-data-analyst/thanks1$ page34052065.html [NC]
+RewriteRule ^philippines-data-analyst/thanks1/$ page34052065.html [NC]
+
+RewriteRule ^ph/wd/webinar/2102$ page34058521.html [NC]
+RewriteRule ^ph/wd/webinar/2102/$ page34058521.html [NC]
+
+RewriteRule ^philippines-web-developer/thanks1$ page34066148.html [NC]
+RewriteRule ^philippines-web-developer/thanks1/$ page34066148.html [NC]
+
+RewriteRule ^ind/da/webinar/2102$ page34073563.html [NC]
+RewriteRule ^ind/da/webinar/2102/$ page34073563.html [NC]
+
+RewriteRule ^ind/da/webinar/2202$ page34077790.html [NC]
+RewriteRule ^ind/da/webinar/2202/$ page34077790.html [NC]
+
+RewriteRule ^payment/72976$ page34110640.html [NC]
+RewriteRule ^payment/72976/$ page34110640.html [NC]
+
+RewriteRule ^ind/da/webinar/2505_1$ page34137037.html [NC]
+RewriteRule ^ind/da/webinar/2505_1/$ page34137037.html [NC]
+
+RewriteRule ^ph/da/webinar/2703$ page34243388.html [NC]
+RewriteRule ^ph/da/webinar/2703/$ page34243388.html [NC]
+
+RewriteRule ^ind/da/webinar/2702_t$ page34243556.html [NC]
+RewriteRule ^ind/da/webinar/2702_t/$ page34243556.html [NC]
+
+RewriteRule ^ph/da/webinar/1703$ page34258117.html [NC]
+RewriteRule ^ph/da/webinar/1703/$ page34258117.html [NC]
+
+RewriteRule ^ind/da/webinar/2502_t$ page34279666.html [NC]
+RewriteRule ^ind/da/webinar/2502_t/$ page34279666.html [NC]
+
+RewriteRule ^ind/da/webinar/1303_t$ page34289498.html [NC]
+RewriteRule ^ind/da/webinar/1303_t/$ page34289498.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2603_2$ page34289630.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2603_2/$ page34289630.html [NC]
+
+RewriteRule ^ind/da/webinar/1803$ page34289739.html [NC]
+RewriteRule ^ind/da/webinar/1803/$ page34289739.html [NC]
+
+RewriteRule ^ph/da/webinar/0203$ page34289998.html [NC]
+RewriteRule ^ph/da/webinar/0203/$ page34289998.html [NC]
+
+RewriteRule ^ind/da/webinar/0903$ page34307810.html [NC]
+RewriteRule ^ind/da/webinar/0903/$ page34307810.html [NC]
+
+RewriteRule ^ind/da/webinar/2802_t$ page34308758.html [NC]
+RewriteRule ^ind/da/webinar/2802_t/$ page34308758.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2603_1$ page34309579.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2603_1/$ page34309579.html [NC]
+
+RewriteRule ^ind/da/webinar/0303$ page34309827.html [NC]
+RewriteRule ^ind/da/webinar/0303/$ page34309827.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2503_2$ page34309924.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2503_2/$ page34309924.html [NC]
+
+RewriteRule ^ind/da/webinar/2604$ page34324420.html [NC]
+RewriteRule ^ind/da/webinar/2604/$ page34324420.html [NC]
+
+RewriteRule ^payment/50000$ page34342022.html [NC]
+RewriteRule ^payment/50000/$ page34342022.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2103_1$ page34346575.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2103_1/$ page34346575.html [NC]
+
+RewriteRule ^ph/da/webinar/1805$ page34354042.html [NC]
+RewriteRule ^ph/da/webinar/1805/$ page34354042.html [NC]
+
+RewriteRule ^ind/referal$ page34364892.html [NC]
+RewriteRule ^ind/referal/$ page34364892.html [NC]
+
+RewriteRule ^da/questions1$ page34368901.html [NC]
+RewriteRule ^da/questions1/$ page34368901.html [NC]
+
+RewriteRule ^ind/referral$ page34426647.html [NC]
+RewriteRule ^ind/referral/$ page34426647.html [NC]
+
+RewriteRule ^ph/da/smm/excel$ page34469777.html [NC]
+RewriteRule ^ph/da/smm/excel/$ page34469777.html [NC]
+
+RewriteRule ^ph/da/webinar/2003_1$ page34435582.html [NC]
+RewriteRule ^ph/da/webinar/2003_1/$ page34435582.html [NC]
+
+RewriteRule ^ph/da/smm/excel/thanks$ page34558476.html [NC]
+RewriteRule ^ph/da/smm/excel/thanks/$ page34558476.html [NC]
+
+RewriteRule ^ind/da/webinar_shofiyyahfirst_t$ page34445283.html [NC]
+RewriteRule ^ind/da/webinar_shofiyyahfirst_t/$ page34445283.html [NC]
+
+RewriteRule ^ph/da/special$ page35742530.html [NC]
+RewriteRule ^ph/da/special/$ page35742530.html [NC]
+
+RewriteRule ^ind/da/webinar/2403_2$ page34459862.html [NC]
+RewriteRule ^ind/da/webinar/2403_2/$ page34459862.html [NC]
+
+RewriteRule ^ind/da/webinar/0703_t$ page34460517.html [NC]
+RewriteRule ^ind/da/webinar/0703_t/$ page34460517.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhafromzeroweb$ page34461726.html [NC]
+RewriteRule ^ph/da/webinar_mikhafromzeroweb/$ page34461726.html [NC]
+
+RewriteRule ^ph/da/webispecial/buy_one_get_two$ page34468221.html [NC]
+RewriteRule ^ph/da/webispecial/buy_one_get_two/$ page34468221.html [NC]
+
+RewriteRule ^ind/da/webinar/0803$ page34474328.html [NC]
+RewriteRule ^ind/da/webinar/0803/$ page34474328.html [NC]
+
+RewriteRule ^ph/da/webispecial/buy_one_get_three$ page34475349.html [NC]
+RewriteRule ^ph/da/webispecial/buy_one_get_three/$ page34475349.html [NC]
+
+RewriteRule ^ind/da/webinar/0903_t$ page34476248.html [NC]
+RewriteRule ^ind/da/webinar/0903_t/$ page34476248.html [NC]
+
+RewriteRule ^ph/da/webinar/1505_1$ page34476335.html [NC]
+RewriteRule ^ph/da/webinar/1505_1/$ page34476335.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2703_1$ page34476446.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2703_1/$ page34476446.html [NC]
+
+RewriteRule ^ind/da/webinar/1003_t$ page34476579.html [NC]
+RewriteRule ^ind/da/webinar/1003_t/$ page34476579.html [NC]
+
+RewriteRule ^ph/da/webispecial/mikhafromzeroweb$ page34488780.html [NC]
+RewriteRule ^ph/da/webispecial/mikhafromzeroweb/$ page34488780.html [NC]
+
+RewriteRule ^ind/da/webinar/2603_2$ page34489293.html [NC]
+RewriteRule ^ind/da/webinar/2603_2/$ page34489293.html [NC]
+
+RewriteRule ^ph/da/webinar/2404_1$ page34507681.html [NC]
+RewriteRule ^ph/da/webinar/2404_1/$ page34507681.html [NC]
+
+RewriteRule ^webinar_mikhafromzeroweb/record$ page34561693.html [NC]
+RewriteRule ^webinar_mikhafromzeroweb/record/$ page34561693.html [NC]
+
+RewriteRule ^webspecial_analytics_t$ page34562548.html [NC]
+RewriteRule ^webspecial_analytics_t/$ page34562548.html [NC]
+
+RewriteRule ^ind/da/webispecial/data_t$ page34562669.html [NC]
+RewriteRule ^ind/da/webispecial/data_t/$ page34562669.html [NC]
+
+RewriteRule ^ph/da/webinar/0903_t$ page34587587.html [NC]
+RewriteRule ^ph/da/webinar/0903_t/$ page34587587.html [NC]
+
+RewriteRule ^ind/da/webinar/2203_2$ page34665677.html [NC]
+RewriteRule ^ind/da/webinar/2203_2/$ page34665677.html [NC]
+
+RewriteRule ^ind/da/webinar/0604_1$ page34669230.html [NC]
+RewriteRule ^ind/da/webinar/0604_1/$ page34669230.html [NC]
+
+RewriteRule ^ind/da/webinar/1404_1$ page34697335.html [NC]
+RewriteRule ^ind/da/webinar/1404_1/$ page34697335.html [NC]
+
+RewriteRule ^ph/da/webinar/1303_t$ page34702715.html [NC]
+RewriteRule ^ph/da/webinar/1303_t/$ page34702715.html [NC]
+
+RewriteRule ^ph/da/webinar/2604$ page34705654.html [NC]
+RewriteRule ^ph/da/webinar/2604/$ page34705654.html [NC]
+
+RewriteRule ^ind/da/webinar/1903_1$ page34825057.html [NC]
+RewriteRule ^ind/da/webinar/1903_1/$ page34825057.html [NC]
+
+RewriteRule ^ind/da/webinar_hendrasecondweb$ page34857893.html [NC]
+RewriteRule ^ind/da/webinar_hendrasecondweb/$ page34857893.html [NC]
+
+RewriteRule ^ind/da/webinar_hendrasecondweb/thanks$ page34858251.html [NC]
+RewriteRule ^ind/da/webinar_hendrasecondweb/thanks/$ page34858251.html [NC]
+
+RewriteRule ^ind/data-analyst/thanks$ page34858437.html [NC]
+RewriteRule ^ind/data-analyst/thanks/$ page34858437.html [NC]
+
+RewriteRule ^ind/da/webispecial/hendrasecondweb$ page34858470.html [NC]
+RewriteRule ^ind/da/webispecial/hendrasecondweb/$ page34858470.html [NC]
+
+RewriteRule ^ind/data-analyst/quallathanks$ page34858834.html [NC]
+RewriteRule ^ind/data-analyst/quallathanks/$ page34858834.html [NC]
+
+RewriteRule ^ph/da/webinar/2003_1t$ page34864404.html [NC]
+RewriteRule ^ph/da/webinar/2003_1t/$ page34864404.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2703$ page34864782.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2703/$ page34864782.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2803_2$ page34864929.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2803_2/$ page34864929.html [NC]
+
+RewriteRule ^ph/da/webinar/2003_2t$ page34887541.html [NC]
+RewriteRule ^ph/da/webinar/2003_2t/$ page34887541.html [NC]
+
+RewriteRule ^hendrasecondweb/record$ page34897364.html [NC]
+RewriteRule ^hendrasecondweb/record/$ page34897364.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2103_2$ page34904165.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2103_2/$ page34904165.html [NC]
+
+RewriteRule ^ph/da/webinar/2203$ page34924096.html [NC]
+RewriteRule ^ph/da/webinar/2203/$ page34924096.html [NC]
+
+RewriteRule ^ind/da/webinar/0404_$ page34925478.html [NC]
+RewriteRule ^ind/da/webinar/0404_/$ page34925478.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2203$ page34926511.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2203/$ page34926511.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2203_2$ page34926783.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2203_2/$ page34926783.html [NC]
+
+RewriteRule ^ph/da/webinar/1705$ page34927275.html [NC]
+RewriteRule ^ph/da/webinar/1705/$ page34927275.html [NC]
+
+RewriteRule ^ind/da/webinar/2303_1$ page34933644.html [NC]
+RewriteRule ^ind/da/webinar/2303_1/$ page34933644.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2303$ page34933881.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2303/$ page34933881.html [NC]
+
+RewriteRule ^ind/da/webinar/2403_1$ page34934487.html [NC]
+RewriteRule ^ind/da/webinar/2403_1/$ page34934487.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2403$ page34935425.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2403/$ page34935425.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2403_2$ page34935798.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2403_2/$ page34935798.html [NC]
+
+RewriteRule ^ph/da/webinar/1605_1$ page34956919.html [NC]
+RewriteRule ^ph/da/webinar/1605_1/$ page34956919.html [NC]
+
+RewriteRule ^ind/da/webinar/2503_1$ page34957026.html [NC]
+RewriteRule ^ind/da/webinar/2503_1/$ page34957026.html [NC]
+
+RewriteRule ^ind/da/webinar/2403_1t$ page34958065.html [NC]
+RewriteRule ^ind/da/webinar/2403_1t/$ page34958065.html [NC]
+
+RewriteRule ^ind/da/webinar/2403_2t$ page34958636.html [NC]
+RewriteRule ^ind/da/webinar/2403_2t/$ page34958636.html [NC]
+
+RewriteRule ^ind/da/webinar/2305_2$ page34959130.html [NC]
+RewriteRule ^ind/da/webinar/2305_2/$ page34959130.html [NC]
+
+RewriteRule ^nd/da/webinar/2203_2t$ page34959266.html [NC]
+RewriteRule ^nd/da/webinar/2203_2t/$ page34959266.html [NC]
+
+RewriteRule ^ind/da/webinar/2104$ page34959313.html [NC]
+RewriteRule ^ind/da/webinar/2104/$ page34959313.html [NC]
+
+RewriteRule ^ind/da/webinar/2303_2t$ page34959431.html [NC]
+RewriteRule ^ind/da/webinar/2303_2t/$ page34959431.html [NC]
+
+RewriteRule ^ind/da/webinar/2503_2$ page34961142.html [NC]
+RewriteRule ^ind/da/webinar/2503_2/$ page34961142.html [NC]
+
+RewriteRule ^ind/da/webinar/2503_2t$ page34961372.html [NC]
+RewriteRule ^ind/da/webinar/2503_2t/$ page34961372.html [NC]
+
+RewriteRule ^ind/da/webinar/2603_1$ page35016133.html [NC]
+RewriteRule ^ind/da/webinar/2603_1/$ page35016133.html [NC]
+
+RewriteRule ^ind/da/webinar/2603_1t$ page35016748.html [NC]
+RewriteRule ^ind/da/webinar/2603_1t/$ page35016748.html [NC]
+
+RewriteRule ^ind/da/webinar/2603_2t$ page35016957.html [NC]
+RewriteRule ^ind/da/webinar/2603_2t/$ page35016957.html [NC]
+
+RewriteRule ^ind/da/webinar/2703_1$ page35017626.html [NC]
+RewriteRule ^ind/da/webinar/2703_1/$ page35017626.html [NC]
+
+RewriteRule ^ind/da/webinar/2703_1t$ page35017806.html [NC]
+RewriteRule ^ind/da/webinar/2703_1t/$ page35017806.html [NC]
+
+RewriteRule ^ph/da/t/webinar/2303$ page35022406.html [NC]
+RewriteRule ^ph/da/t/webinar/2303/$ page35022406.html [NC]
+
+RewriteRule ^ind/da/webinar_shofiyyahfirst_2t$ page35027374.html [NC]
+RewriteRule ^ind/da/webinar_shofiyyahfirst_2t/$ page35027374.html [NC]
+
+RewriteRule ^ind/da/webinar_shofiyyahfirst_3t$ page35029123.html [NC]
+RewriteRule ^ind/da/webinar_shofiyyahfirst_3t/$ page35029123.html [NC]
+
+RewriteRule ^ind/da/webinar/2803_1$ page35049916.html [NC]
+RewriteRule ^ind/da/webinar/2803_1/$ page35049916.html [NC]
+
+RewriteRule ^ind/da/webinar/2803_2$ page35050031.html [NC]
+RewriteRule ^ind/da/webinar/2803_2/$ page35050031.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2803_1$ page35050102.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2803_1/$ page35050102.html [NC]
+
+RewriteRule ^ph/da/webinar/2104_1$ page35052002.html [NC]
+RewriteRule ^ph/da/webinar/2104_1/$ page35052002.html [NC]
+
+RewriteRule ^ind/da/webinar/2505$ page35052358.html [NC]
+RewriteRule ^ind/da/webinar/2505/$ page35052358.html [NC]
+
+RewriteRule ^ind/da/webinar/2903_2$ page35052446.html [NC]
+RewriteRule ^ind/da/webinar/2903_2/$ page35052446.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2903_1$ page35052522.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2903_1/$ page35052522.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/2903_2$ page35052568.html [NC]
+RewriteRule ^ind/da/webinar/thanks/2903_2/$ page35052568.html [NC]
+
+RewriteRule ^ind/da/webinar/3003_1$ page35055337.html [NC]
+RewriteRule ^ind/da/webinar/3003_1/$ page35055337.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/3003_1$ page35055591.html [NC]
+RewriteRule ^ind/da/webinar/thanks/3003_1/$ page35055591.html [NC]
+
+RewriteRule ^ph/da/webinar/1104$ page35056123.html [NC]
+RewriteRule ^ph/da/webinar/1104/$ page35056123.html [NC]
+
+RewriteRule ^ind/da/webinar/3103_1$ page35057283.html [NC]
+RewriteRule ^ind/da/webinar/3103_1/$ page35057283.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks/3103$ page35057412.html [NC]
+RewriteRule ^ind/da/webinar/thanks/3103/$ page35057412.html [NC]
+
+RewriteRule ^ind/da/webinar/3103$ page35083216.html [NC]
+RewriteRule ^ind/da/webinar/3103/$ page35083216.html [NC]
+
+RewriteRule ^ind/da/webinar/2803_2t$ page35092660.html [NC]
+RewriteRule ^ind/da/webinar/2803_2t/$ page35092660.html [NC]
+
+RewriteRule ^ind/da/webinar/2903_2t$ page35092848.html [NC]
+RewriteRule ^ind/da/webinar/2903_2t/$ page35092848.html [NC]
+
+RewriteRule ^ind/t/grid$ page35097622.html [NC]
+RewriteRule ^ind/t/grid/$ page35097622.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhafromzeroweb_1t$ page35110713.html [NC]
+RewriteRule ^ph/da/webinar_mikhafromzeroweb_1t/$ page35110713.html [NC]
+
+RewriteRule ^ph/da/webinar_mikhafromzeroweb_2t$ page35112984.html [NC]
+RewriteRule ^ph/da/webinar_mikhafromzeroweb_2t/$ page35112984.html [NC]
+
+RewriteRule ^webspecial_analytics$ page27599806.html [NC]
+RewriteRule ^webspecial_analytics/$ page27599806.html [NC]
+
+RewriteRule ^ph/da/webinar/0805$ page35162095.html [NC]
+RewriteRule ^ph/da/webinar/0805/$ page35162095.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks$ page35216507.html [NC]
+RewriteRule ^ind/da/webinar/thanks/$ page35216507.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks_t$ page35223183.html [NC]
+RewriteRule ^ind/da/webinar/thanks_t/$ page35223183.html [NC]
+
+RewriteRule ^ph/da/webinar/0504$ page35227917.html [NC]
+RewriteRule ^ph/da/webinar/0504/$ page35227917.html [NC]
+
+RewriteRule ^ind/da/webinar/1805$ page35248265.html [NC]
+RewriteRule ^ind/da/webinar/1805/$ page35248265.html [NC]
+
+RewriteRule ^ind/da/webinar/1905$ page35249576.html [NC]
+RewriteRule ^ind/da/webinar/1905/$ page35249576.html [NC]
+
+RewriteRule ^ind/da/webinar/0504_2$ page35250660.html [NC]
+RewriteRule ^ind/da/webinar/0504_2/$ page35250660.html [NC]
+
+RewriteRule ^ind/da/webinar/0604_2$ page35285945.html [NC]
+RewriteRule ^ind/da/webinar/0604_2/$ page35285945.html [NC]
+
+RewriteRule ^philippines-data-analyst/thanks2$ page35292125.html [NC]
+RewriteRule ^philippines-data-analyst/thanks2/$ page35292125.html [NC]
+
+RewriteRule ^ind/da/webinar/1004_2$ page35439418.html [NC]
+RewriteRule ^ind/da/webinar/1004_2/$ page35439418.html [NC]
+
+RewriteRule ^ind/da/webinar/1104_1$ page35439856.html [NC]
+RewriteRule ^ind/da/webinar/1104_1/$ page35439856.html [NC]
+
+RewriteRule ^ind/da/webinar/1504$ page35445874.html [NC]
+RewriteRule ^ind/da/webinar/1504/$ page35445874.html [NC]
+
+RewriteRule ^ind/da/webinar/1204_2$ page35449375.html [NC]
+RewriteRule ^ind/da/webinar/1204_2/$ page35449375.html [NC]
+
+RewriteRule ^ind/da/webinar/1404_2$ page35450576.html [NC]
+RewriteRule ^ind/da/webinar/1404_2/$ page35450576.html [NC]
+
+RewriteRule ^ph/da/webinar/0305$ page35457921.html [NC]
+RewriteRule ^ph/da/webinar/0305/$ page35457921.html [NC]
+
+RewriteRule ^ind/da/webinar/2404$ page35464254.html [NC]
+RewriteRule ^ind/da/webinar/2404/$ page35464254.html [NC]
+
+RewriteRule ^ind/da/webinar/0805$ page35464603.html [NC]
+RewriteRule ^ind/da/webinar/0805/$ page35464603.html [NC]
+
+RewriteRule ^ind/da/webinar/1304_2$ page35467139.html [NC]
+RewriteRule ^ind/da/webinar/1304_2/$ page35467139.html [NC]
+
+RewriteRule ^ind/indodana-failure$ page35471315.html [NC]
+RewriteRule ^ind/indodana-failure/$ page35471315.html [NC]
+
+RewriteRule ^ph/da/webinar/1704_2$ page35632616.html [NC]
+RewriteRule ^ph/da/webinar/1704_2/$ page35632616.html [NC]
+
+RewriteRule ^ind/da/webinar/1305$ page35633114.html [NC]
+RewriteRule ^ind/da/webinar/1305/$ page35633114.html [NC]
+
+RewriteRule ^ph/da/webinar/2505$ page35666738.html [NC]
+RewriteRule ^ph/da/webinar/2505/$ page35666738.html [NC]
+
+RewriteRule ^ph/da/webinar/1804_2$ page35666944.html [NC]
+RewriteRule ^ph/da/webinar/1804_2/$ page35666944.html [NC]
+
+RewriteRule ^ph/da/webinar/1904$ page35670958.html [NC]
+RewriteRule ^ph/da/webinar/1904/$ page35670958.html [NC]
+
+RewriteRule ^ind/da/webinar/1804_2$ page35698187.html [NC]
+RewriteRule ^ind/da/webinar/1804_2/$ page35698187.html [NC]
+
+RewriteRule ^ind/da/webinar/1904_2$ page35698259.html [NC]
+RewriteRule ^ind/da/webinar/1904_2/$ page35698259.html [NC]
+
+RewriteRule ^ph/da/webinar/1205$ page35710314.html [NC]
+RewriteRule ^ph/da/webinar/1205/$ page35710314.html [NC]
+
+RewriteRule ^ph/da/webinar/2004_2$ page35711582.html [NC]
+RewriteRule ^ph/da/webinar/2004_2/$ page35711582.html [NC]
+
+RewriteRule ^ph/da/webinar/2104_2$ page35716921.html [NC]
+RewriteRule ^ph/da/webinar/2104_2/$ page35716921.html [NC]
+
+RewriteRule ^minicourse_secret_lesson$ page35746204.html [NC]
+RewriteRule ^minicourse_secret_lesson/$ page35746204.html [NC]
+
+RewriteRule ^ind/da/webinar/2404_2$ page35867696.html [NC]
+RewriteRule ^ind/da/webinar/2404_2/$ page35867696.html [NC]
+
+RewriteRule ^ph/da/webinar/2504$ page35869013.html [NC]
+RewriteRule ^ph/da/webinar/2504/$ page35869013.html [NC]
+
+RewriteRule ^ind/webinar/oops$ page35876944.html [NC]
+RewriteRule ^ind/webinar/oops/$ page35876944.html [NC]
+
+RewriteRule ^ind/da/webinar/2704$ page35914654.html [NC]
+RewriteRule ^ind/da/webinar/2704/$ page35914654.html [NC]
+
+RewriteRule ^ph/da/webinar/2804$ page35943876.html [NC]
+RewriteRule ^ph/da/webinar/2804/$ page35943876.html [NC]
+
+RewriteRule ^ind/da/webinar_careerba$ page36048414.html [NC]
+RewriteRule ^ind/da/webinar_careerba/$ page36048414.html [NC]
+
+RewriteRule ^ind/da/webinar_careerba/thanks$ page36049106.html [NC]
+RewriteRule ^ind/da/webinar_careerba/thanks/$ page36049106.html [NC]
+
+RewriteRule ^ind/da/webispecial/careerba$ page36049391.html [NC]
+RewriteRule ^ind/da/webispecial/careerba/$ page36049391.html [NC]
+
+RewriteRule ^ph/referraltest$ page36071020.html [NC]
+RewriteRule ^ph/referraltest/$ page36071020.html [NC]
+
+RewriteRule ^ind/da/webinar/0205$ page36087953.html [NC]
+RewriteRule ^ind/da/webinar/0205/$ page36087953.html [NC]
+
+RewriteRule ^speedtest$ page36090116.html [NC]
+RewriteRule ^speedtest/$ page36090116.html [NC]
+
+RewriteRule ^ph/da/webinar_moneyinit$ page36116914.html [NC]
+RewriteRule ^ph/da/webinar_moneyinit/$ page36116914.html [NC]
+
+RewriteRule ^ph/da/webispecial/moneyinit$ page36120899.html [NC]
+RewriteRule ^ph/da/webispecial/moneyinit/$ page36120899.html [NC]
+
+RewriteRule ^hr/vacancies/marketing/head_of_content_funnels$ page36121379.html [NC]
+RewriteRule ^hr/vacancies/marketing/head_of_content_funnels/$ page36121379.html [NC]
+
+RewriteRule ^ind/web0305/record$ page36129109.html [NC]
+RewriteRule ^ind/web0305/record/$ page36129109.html [NC]
+
+RewriteRule ^web0305/record$ page36130197.html [NC]
+RewriteRule ^web0305/record/$ page36130197.html [NC]
+
+RewriteRule ^ind/da/webinar_workshopsql$ page36296395.html [NC]
+RewriteRule ^ind/da/webinar_workshopsql/$ page36296395.html [NC]
+
+RewriteRule ^ind/da/webispecial/workshopsql$ page36297022.html [NC]
+RewriteRule ^ind/da/webispecial/workshopsql/$ page36297022.html [NC]
+
+RewriteRule ^ind/da/webinar_workshopsql/thanks$ page36298996.html [NC]
+RewriteRule ^ind/da/webinar_workshopsql/thanks/$ page36298996.html [NC]
+
+RewriteRule ^forspeedtest$ page36332325.html [NC]
+RewriteRule ^forspeedtest/$ page36332325.html [NC]
+
+RewriteRule ^ind/da/webinar_topmistakes$ page36334609.html [NC]
+RewriteRule ^ind/da/webinar_topmistakes/$ page36334609.html [NC]
+
+RewriteRule ^ind/da/webinar_topmistakes/thanks$ page36335207.html [NC]
+RewriteRule ^ind/da/webinar_topmistakes/thanks/$ page36335207.html [NC]
+
+RewriteRule ^ind/da/webispecial/topmistakes$ page36335393.html [NC]
+RewriteRule ^ind/da/webispecial/topmistakes/$ page36335393.html [NC]
+
+RewriteRule ^testph$ page36340768.html [NC]
+RewriteRule ^testph/$ page36340768.html [NC]
+
+RewriteRule ^ind/web0405/record$ page36346721.html [NC]
+RewriteRule ^ind/web0405/record/$ page36346721.html [NC]
+
+RewriteRule ^web0405/record$ page36346842.html [NC]
+RewriteRule ^web0405/record/$ page36346842.html [NC]
+
+RewriteRule ^webinar_careerba/record$ page36350328.html [NC]
+RewriteRule ^webinar_careerba/record/$ page36350328.html [NC]
+
+RewriteRule ^webinar_workshopsql/record$ page36350349.html [NC]
+RewriteRule ^webinar_workshopsql/record/$ page36350349.html [NC]
+
+RewriteRule ^webinar_topmistakes/record$ page36350366.html [NC]
+RewriteRule ^webinar_topmistakes/record/$ page36350366.html [NC]
+
+RewriteRule ^ind/da/webinar/2205_1$ page36356891.html [NC]
+RewriteRule ^ind/da/webinar/2205_1/$ page36356891.html [NC]
+
+RewriteRule ^ph/da/webinar/2205$ page36357953.html [NC]
+RewriteRule ^ph/da/webinar/2205/$ page36357953.html [NC]
+
+RewriteRule ^ph/da/webinar/2405$ page36358704.html [NC]
+RewriteRule ^ph/da/webinar/2405/$ page36358704.html [NC]
+
+RewriteRule ^ind/da/webinar/2605_1$ page36359930.html [NC]
+RewriteRule ^ind/da/webinar/2605_1/$ page36359930.html [NC]
+
+RewriteRule ^ind/web0505/record$ page36376334.html [NC]
+RewriteRule ^ind/web0505/record/$ page36376334.html [NC]
+
+RewriteRule ^web0505/record$ page36380298.html [NC]
+RewriteRule ^web0505/record/$ page36380298.html [NC]
+
+RewriteRule ^indtest-stories-font$ page36499991.html [NC]
+RewriteRule ^indtest-stories-font/$ page36499991.html [NC]
+
+RewriteRule ^webinar_moneyinit/record$ page36431989.html [NC]
+RewriteRule ^webinar_moneyinit/record/$ page36431989.html [NC]
+
+RewriteRule ^indtest-stories$ page36499754.html [NC]
+RewriteRule ^indtest-stories/$ page36499754.html [NC]
+
+RewriteRule ^ind/web0805/record$ page36438485.html [NC]
+RewriteRule ^ind/web0805/record/$ page36438485.html [NC]
+
+RewriteRule ^indtest-scale$ page36498537.html [NC]
+RewriteRule ^indtest-scale/$ page36498537.html [NC]
+
+RewriteRule ^web0805/record$ page36438511.html [NC]
+RewriteRule ^web0805/record/$ page36438511.html [NC]
+
+RewriteRule ^testind$ page36394530.html [NC]
+RewriteRule ^testind/$ page36394530.html [NC]
+
+RewriteRule ^ph/da/webinar/1505_2$ page36442363.html [NC]
+RewriteRule ^ph/da/webinar/1505_2/$ page36442363.html [NC]
+
+RewriteRule ^ind/da/webinar/1505_2$ page36445219.html [NC]
+RewriteRule ^ind/da/webinar/1505_2/$ page36445219.html [NC]
+
+RewriteRule ^ph/da/webinar/1605_2$ page36445891.html [NC]
+RewriteRule ^ph/da/webinar/1605_2/$ page36445891.html [NC]
+
+RewriteRule ^ind/da/webinar/1605_2$ page36446295.html [NC]
+RewriteRule ^ind/da/webinar/1605_2/$ page36446295.html [NC]
+
+RewriteRule ^ind/da/webinar/1705_1$ page36446761.html [NC]
+RewriteRule ^ind/da/webinar/1705_1/$ page36446761.html [NC]
+
+RewriteRule ^ind/da/webinar/1705_2$ page36446951.html [NC]
+RewriteRule ^ind/da/webinar/1705_2/$ page36446951.html [NC]
+
+RewriteRule ^web0905/record$ page36455850.html [NC]
+RewriteRule ^web0905/record/$ page36455850.html [NC]
+
+RewriteRule ^ind/web0905/record$ page36455890.html [NC]
+RewriteRule ^ind/web0905/record/$ page36455890.html [NC]
+
+RewriteRule ^ph/da/offer$ page36473107.html [NC]
+RewriteRule ^ph/da/offer/$ page36473107.html [NC]
+
+RewriteRule ^ind/da/webinar_shofiyyahfirst_t5$ page36477173.html [NC]
+RewriteRule ^ind/da/webinar_shofiyyahfirst_t5/$ page36477173.html [NC]
+
+RewriteRule ^ph/da/webinar/1905$ page36480092.html [NC]
+RewriteRule ^ph/da/webinar/1905/$ page36480092.html [NC]
+
+RewriteRule ^web1005/record$ page36491001.html [NC]
+RewriteRule ^web1005/record/$ page36491001.html [NC]
+
+RewriteRule ^ind/web1005/record$ page36491029.html [NC]
+RewriteRule ^ind/web1005/record/$ page36491029.html [NC]
+
+RewriteRule ^indtest-stories-font-scale$ page36501788.html [NC]
+RewriteRule ^indtest-stories-font-scale/$ page36501788.html [NC]
+
+RewriteRule ^ind/da/webispecial/shofiyyahfirst_t5$ page36516175.html [NC]
+RewriteRule ^ind/da/webispecial/shofiyyahfirst_t5/$ page36516175.html [NC]
+
+RewriteRule ^web1105/record$ page36525740.html [NC]
+RewriteRule ^web1105/record/$ page36525740.html [NC]
+
+RewriteRule ^ind/web1105/record$ page36525778.html [NC]
+RewriteRule ^ind/web1105/record/$ page36525778.html [NC]
+
+RewriteRule ^webinar_shofiyyahfirst_t5/record$ page36529538.html [NC]
+RewriteRule ^webinar_shofiyyahfirst_t5/record/$ page36529538.html [NC]
+
+RewriteRule ^ind/da/webinar/2005$ page36539788.html [NC]
+RewriteRule ^ind/da/webinar/2005/$ page36539788.html [NC]
+
+RewriteRule ^op-ind-02$ page36567264.html [NC]
+RewriteRule ^op-ind-02/$ page36567264.html [NC]
+
+RewriteRule ^op-ind-2$ page36514785.html [NC]
+RewriteRule ^op-ind-2/$ page36514785.html [NC]
+
+RewriteRule ^web1205/record$ page36608221.html [NC]
+RewriteRule ^web1205/record/$ page36608221.html [NC]
+
+RewriteRule ^ind/web1205/record$ page36608311.html [NC]
+RewriteRule ^ind/web1205/record/$ page36608311.html [NC]
+
+RewriteRule ^ind/web1305/record$ page36608429.html [NC]
+RewriteRule ^ind/web1305/record/$ page36608429.html [NC]
+
+RewriteRule ^web1505_1/record$ page36608556.html [NC]
+RewriteRule ^web1505_1/record/$ page36608556.html [NC]
+
+RewriteRule ^web1505_2/record$ page36608701.html [NC]
+RewriteRule ^web1505_2/record/$ page36608701.html [NC]
+
+RewriteRule ^ind/web1505_1/record$ page36608864.html [NC]
+RewriteRule ^ind/web1505_1/record/$ page36608864.html [NC]
+
+RewriteRule ^ind/web1505_2/record$ page36610936.html [NC]
+RewriteRule ^ind/web1505_2/record/$ page36610936.html [NC]
+
+RewriteRule ^ind/da/webinar/1905_2$ page36636834.html [NC]
+RewriteRule ^ind/da/webinar/1905_2/$ page36636834.html [NC]
+
+RewriteRule ^ind/da/webinar/2205_2$ page36644595.html [NC]
+RewriteRule ^ind/da/webinar/2205_2/$ page36644595.html [NC]
+
+RewriteRule ^ind/da/webinar/2305$ page36649630.html [NC]
+RewriteRule ^ind/da/webinar/2305/$ page36649630.html [NC]
+
+RewriteRule ^ph/da/webinar/2305$ page36652425.html [NC]
+RewriteRule ^ph/da/webinar/2305/$ page36652425.html [NC]
+
+RewriteRule ^web1605/record$ page36664588.html [NC]
+RewriteRule ^web1605/record/$ page36664588.html [NC]
+
+RewriteRule ^web1605_2/record$ page36664677.html [NC]
+RewriteRule ^web1605_2/record/$ page36664677.html [NC]
+
+RewriteRule ^ind/web1605/record$ page36664717.html [NC]
+RewriteRule ^ind/web1605/record/$ page36664717.html [NC]
+
+RewriteRule ^ind/web1605_2/record$ page36664768.html [NC]
+RewriteRule ^ind/web1605_2/record/$ page36664768.html [NC]
+
+RewriteRule ^hr/vacancies/hr/hrd$ page36669392.html [NC]
+RewriteRule ^hr/vacancies/hr/hrd/$ page36669392.html [NC]
+
+RewriteRule ^hr/vacancies/marketing/webinar_moderator$ page36681297.html [NC]
+RewriteRule ^hr/vacancies/marketing/webinar_moderator/$ page36681297.html [NC]
+
+RewriteRule ^ind/da/webinar/2405$ page36688755.html [NC]
+RewriteRule ^ind/da/webinar/2405/$ page36688755.html [NC]
+
+RewriteRule ^web1705/record$ page36696141.html [NC]
+RewriteRule ^web1705/record/$ page36696141.html [NC]
+
+RewriteRule ^ind/web1705/record$ page36696194.html [NC]
+RewriteRule ^ind/web1705/record/$ page36696194.html [NC]
+
+RewriteRule ^ind/web1705_2/record$ page36696215.html [NC]
+RewriteRule ^ind/web1705_2/record/$ page36696215.html [NC]
+
+RewriteRule ^ind/da/webinar/2405_1$ page36701150.html [NC]
+RewriteRule ^ind/da/webinar/2405_1/$ page36701150.html [NC]
+
+RewriteRule ^ind/da/webinar/2405_2$ page36704682.html [NC]
+RewriteRule ^ind/da/webinar/2405_2/$ page36704682.html [NC]
+
+RewriteRule ^ind/da/webinar/2505_2$ page36706936.html [NC]
+RewriteRule ^ind/da/webinar/2505_2/$ page36706936.html [NC]
+
+RewriteRule ^ph/da/webinar/2605_1$ page36709096.html [NC]
+RewriteRule ^ph/da/webinar/2605_1/$ page36709096.html [NC]
+
+RewriteRule ^ph/da/webinar/2605_2$ page36709364.html [NC]
+RewriteRule ^ph/da/webinar/2605_2/$ page36709364.html [NC]
+
+RewriteRule ^web1805/record$ page36728413.html [NC]
+RewriteRule ^web1805/record/$ page36728413.html [NC]
+
+RewriteRule ^ind/web1805/record$ page36728465.html [NC]
+RewriteRule ^ind/web1805/record/$ page36728465.html [NC]
+
+RewriteRule ^ind/da/webinar/2705_1$ page36732679.html [NC]
+RewriteRule ^ind/da/webinar/2705_1/$ page36732679.html [NC]
+
+RewriteRule ^ind/da/webinar/2705_2$ page36733417.html [NC]
+RewriteRule ^ind/da/webinar/2705_2/$ page36733417.html [NC]
+
+RewriteRule ^ind/da/webinar/2605_2$ page36736849.html [NC]
+RewriteRule ^ind/da/webinar/2605_2/$ page36736849.html [NC]
+
+RewriteRule ^ind/web1905/record$ page36789511.html [NC]
+RewriteRule ^ind/web1905/record/$ page36789511.html [NC]
+
+RewriteRule ^ind/web1905_2/record$ page36789572.html [NC]
+RewriteRule ^ind/web1905_2/record/$ page36789572.html [NC]
+
+RewriteRule ^web1905/record$ page36789609.html [NC]
+RewriteRule ^web1905/record/$ page36789609.html [NC]
+
+RewriteRule ^ind/web2005/record$ page36789644.html [NC]
+RewriteRule ^ind/web2005/record/$ page36789644.html [NC]
+
+RewriteRule ^hr/vacancies/hr/core_recruiter$ page36798355.html [NC]
+RewriteRule ^hr/vacancies/hr/core_recruiter/$ page36798355.html [NC]
+
+RewriteRule ^ind/da/webinar/2605_3$ page36807650.html [NC]
+RewriteRule ^ind/da/webinar/2605_3/$ page36807650.html [NC]
+
+RewriteRule ^ind/da/webinar/thanks_s$ page36820679.html [NC]
+RewriteRule ^ind/da/webinar/thanks_s/$ page36820679.html [NC]
+
+RewriteRule ^ind/web2205_1/record$ page36825001.html [NC]
+RewriteRule ^ind/web2205_1/record/$ page36825001.html [NC]
+
+RewriteRule ^ind/web2205_2/record$ page36825035.html [NC]
+RewriteRule ^ind/web2205_2/record/$ page36825035.html [NC]
+
+RewriteRule ^web2205/record$ page36825043.html [NC]
+RewriteRule ^web2205/record/$ page36825043.html [NC]
+
+RewriteRule ^dgtl-mrktng$ https://refocus\.me/ [R=301,NC]
+
+RewriteRule ^digital$ https://refocus\.me/ [R=301,NC]
+
+RewriteRule ^refocus$ https://refocus\.me/ [R=301,NC]
+
+RewriteRule ^main$ https://refocus\.me/ [R=301,NC]
+
+RewriteRule ^newlanding$ https://refocus\.me/philippines-digital-marketing [R=301,NC]
+
+RewriteRule ^web0302/record$ https://refocus\.me/ [R=301,NC]
+
+RewriteRule ^web0102/record$ https://refocus\.me/ [R=301,NC]
+
+RewriteRule ^u$ https://refocus\.me/philippines-data-analyst [R=301,NC]
+
+RewriteRule ^fa$ https://refocus\.me/philippines-data-analyst [R=301,NC]
+
+RewriteRule ^of$ https://refocus\.me/philippines-data-analyst [R=301,NC]
+
+RewriteRule ^web1006$ https://refocus\.me/ph/web1006_da [R=301,NC]
+
+RewriteRule ^webispecial-ind$ https://refocus\.me/ind/da/webispecial/data [R=301,NC]
+
+RewriteRule ^ph/webinar_schedule$ https://refocus\.me/ph/webinars [R=301,NC]
+
+RewriteRule ^ind/da/webinar_shofiyyahfirst_3t$ https://refocus\.me/ind/da/webinar_shofiyyahfirst [R=301,NC]
+
+RewriteRule ^ind/webinar_schedule$ https://refocus\.me/ind/webinars [R=301,NC]
+
+RewriteRule ^ph/webinar_schedule$ https://refocus\.me/ph/webinars [R=301,NC]
+
+RewriteRule ^members/ ma_start.html [NC]
+
+
